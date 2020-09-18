@@ -5,11 +5,11 @@ import json
 import re
 import requests 
 
-consumer_key = 'bAWoCmgdbMZHoi8TdRVFm27kd'
-consumer_secret = 'FzbSEKsCIdBzhmmzuxnOL8t10JXOIKmcRImBmi0ZClA2wa4NRA'
+consumer_key = CONSUMER_KEY
+consumer_secret = CONSUMER_SECRET
 
-key = '1268799124780040192-B7wNjLWNTXT7ir6fYYBxh6HNV6EUWx'
-secret = '4tfxCbFoOgycO7VY7SmJVo1wyZDC7w2jw3Re3eFYmksjh'
+key = KEY
+secret = SECRET
 
 class StdOutListener(StreamListener):
     def on_data(self, data):
